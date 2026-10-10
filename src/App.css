@@ -1,0 +1,17 @@
+
+/* FORMA application styles */
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+::selection {
+  background: #D9C8B5;
+  color: #292B27;
+}
+
+:focus-visible {
+  outline: 2px solid #A58A6A;
+  outline-offset: 3px;
+}
