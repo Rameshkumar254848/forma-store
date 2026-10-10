@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { store } from './app/store'
 import App from './App'
 import './index.css'
-import './app.css'
+import './App.css'
 import './app/persistence'
 
 createRoot(document.getElementById('root')).render(
