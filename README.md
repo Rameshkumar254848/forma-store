@@ -1,16 +1,144 @@
-# React + Vite
+# FORMA — Premium E-commerce Storefront
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive furniture and home-decor storefront built with React. FORMA features an editorial, minimal design with a warm cream palette, product browsing, wishlist and cart functionality, and a simulated checkout flow.
 
-Currently, two official plugins are available:
+**Live demo:** https://forma-store-6sdl.vercel.app/  
+**Source code:** https://github.com/Rameshkumar254848/forma-store
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Screenshots
 
-## React Compiler
+Add screenshots of your deployed site to `docs/screenshots/`, then update the paths below. Suggested screenshots:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `docs/screenshots/homepage.png` — homepage and hero section
+- `docs/screenshots/shop-grid.png` — product collection in grid view
+- `docs/screenshots/shop-list.png` — product collection in list view
+- `docs/screenshots/cart.png` — cart page
+- `docs/screenshots/checkout.png` — checkout page
 
-## Expanding the ESLint configuration
+Example:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```md
+![FORMA homepage](docs/screenshots/homepage.png)
+```
+
+## Features
+
+- Responsive storefront layout for desktop and mobile
+- Product collection with search, category and price filters, and sorting
+- Grid and list product views, with the selected view saved in local storage
+- Product detail pages
+- Shopping cart with quantity updates and item removal
+- Wishlist with add/remove actions
+- Cart and wishlist persistence using Redux state and local storage
+- Checkout form with field-level validation
+- Demo coupon codes: `FORMA10` and `WELCOME15`
+- Simulated order confirmation; no payment is collected or processed
+- Reusable React hooks and utility functions
+- React Router navigation and custom page titles
+
+## Tech stack
+
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Redux Toolkit and React Redux
+- Lucide React
+- JavaScript
+- Vercel for deployment
+
+## Run locally
+
+### Prerequisites
+
+- Node.js (use a current supported LTS release)
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Rameshkumar254848/forma-store.git
+   ```
+
+2. Move into the project directory:
+
+   ```bash
+   cd forma-store
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL printed in your terminal.
+
+## Production build
+
+Create a production build:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Project structure
+
+```text
+src/
+├── app/
+│   ├── persistence.js
+│   └── store.js
+├── components/
+│   ├── CheckoutField.jsx
+│   ├── ImageWithFallback.jsx
+│   ├── ProductCard.jsx
+│   └── ShopFilters.jsx
+├── data/
+│   └── products.js
+├── features/
+│   ├── cart/
+│   │   └── cartSlice.js
+│   └── wishlist/
+│       └── wishlistSlice.js
+├── hooks/
+│   ├── useClickOutside.js
+│   ├── useDebounce.js
+│   ├── useDocumentTitle.js
+│   └── useLocalStorage.js
+├── pages/
+│   ├── Cart.jsx
+│   ├── OrderSuccess.jsx
+│   ├── ProductDetails.jsx
+│   ├── Shop.jsx
+│   ├── Wishlist.jsx
+│   └── Checkout.jsx
+└── utils/
+    ├── formatCurrency.js
+    └── validateCheckout.js
+```
+
+## Notes
+
+FORMA is a frontend portfolio project. Checkout is simulated for demonstration purposes and does not process real payments. Product data is sample data.
+
+## Author
+
+**Ramesh Kumar**
+
+- GitHub: https://github.com/Rameshkumar254848
+- Live project: https://forma-store-6sdl.vercel.app/
