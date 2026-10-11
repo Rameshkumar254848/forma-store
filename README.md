@@ -2,8 +2,9 @@
 
 A responsive furniture and home-decor storefront built with React. FORMA features an editorial, minimal design with a warm cream palette, product browsing, wishlist and cart functionality, and a simulated checkout flow.
 
-**Live demo:** https://forma-store-6sdl.vercel.app/  
-**Source code:** https://github.com/Rameshkumar254848/forma-store
+**Live demo:** [https://forma-store-6sdl.vercel.app/](https://forma-store-6sdl.vercel.app/)
+
+**Source code:** [https://github.com/Rameshkumar254848/forma-store](https://github.com/Rameshkumar254848/forma-store)
 
 ## Screenshots
 
@@ -26,7 +27,6 @@ A responsive furniture and home-decor storefront built with React. FORMA feature
 ### Checkout
 
 ![FORMA checkout](docs/screenshots/checkout.png)
-```
 
 ## Features
 
@@ -43,7 +43,7 @@ A responsive furniture and home-decor storefront built with React. FORMA feature
 - Reusable React hooks and utility functions
 - React Router navigation and custom page titles
 
-## Tech stack
+## Tech Stack
 
 - React
 - Vite
@@ -54,7 +54,7 @@ A responsive furniture and home-decor storefront built with React. FORMA feature
 - JavaScript
 - Vercel for deployment
 
-## Run locally
+## Run Locally
 
 ### Prerequisites
 
@@ -89,7 +89,7 @@ A responsive furniture and home-decor storefront built with React. FORMA feature
 
 5. Open the local URL printed in your terminal.
 
-## Production build
+## Production Build
 
 Create a production build:
 
@@ -103,7 +103,7 @@ Preview the production build locally:
 npm run preview
 ```
 
-## Project structure
+## Project Structure
 
 ```text
 src/
@@ -147,5 +147,5 @@ FORMA is a frontend portfolio project. Checkout is simulated for demonstration p
 
 **Ramesh Kumar**
 
-- GitHub: https://github.com/Rameshkumar254848
-- Live project: https://forma-store-6sdl.vercel.app/
+- GitHub: [Rameshkumar254848](https://github.com/Rameshkumar254848)
+- Live project: [FORMA — Premium E-commerce Storefront](https://forma-store-6sdl.vercel.app/)
