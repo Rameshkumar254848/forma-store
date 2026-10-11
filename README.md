@@ -7,18 +7,25 @@ A responsive furniture and home-decor storefront built with React. FORMA feature
 
 ## Screenshots
 
-Add screenshots of your deployed site to `docs/screenshots/`, then update the paths below. Suggested screenshots:
+### Homepage
 
-- `docs/screenshots/homepage.png` — homepage and hero section
-- `docs/screenshots/shop-grid.png` — product collection in grid view
-- `docs/screenshots/shop-list.png` — product collection in list view
-- `docs/screenshots/cart.png` — cart page
-- `docs/screenshots/checkout.png` — checkout page
-
-Example:
-
-```md
 ![FORMA homepage](docs/screenshots/homepage.png)
+
+### Shop — Grid View
+
+![FORMA shop grid view](docs/screenshots/shop-grid.png)
+
+### Shop — List View
+
+![FORMA shop list view](docs/screenshots/shop-list.png)
+
+### Shopping Cart
+
+![FORMA shopping cart](docs/screenshots/cart.png)
+
+### Checkout
+
+![FORMA checkout](docs/screenshots/checkout.png)
 ```
 
 ## Features
